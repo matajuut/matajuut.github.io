@@ -114,16 +114,18 @@ section.grey:after {
 .feature {
   text-align: center; }
 
-.feature .glyphicon {
+.feature i.fa {
+  width: 130px;
+  height: 130px;
+  padding-top: 40px;
   font-size: 50px;
-  padding: 45px;
   margin-bottom: 5px;
   color: #FFFFFF;
   background-color: #FF3E3E;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px; }
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%; }
 
 .my-skills {
   margin-top: 50px; }
@@ -293,14 +295,17 @@ ul.social-buttons {
   float: right; }
 
 ul.social-buttons li a {
-  padding-left: 9px;
+  padding-left: 7px;
   display: block;
   background-color: #FF3E3E;
   height: 40px;
   width: 40px;
   border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 38px;
   color: #FFFFFF;
   outline: none; }
 
@@ -730,6 +735,9 @@ ul.social-buttons li a:active {
 
   ul.social-buttons {
     margin-top: 10px;
-    float: none; } }
+    float: none; }
+
+  ul.social-buttons li a {
+    padding-left: 1px; } }
 
 /*# sourceMappingURL=custom.css.map */

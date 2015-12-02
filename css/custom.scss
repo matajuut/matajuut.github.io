@@ -153,13 +153,15 @@ section.grey:after {
 	text-align: center;
 }
 
-.feature .glyphicon {
+.feature i.fa {
+	width: 130px;
+	height: 130px;
+	padding-top: 40px;
 	font-size: 50px;
-	padding: 45px;
 	margin-bottom: 5px;
 	color: $color2;
 	background-color: $color1;
-	@include border-radius(100px);
+	@include border-radius(100%);
 }
 
 .my-skills {
@@ -342,14 +344,14 @@ ul.social-buttons {
   float: right;
 }
 ul.social-buttons li a {
-  padding-left: 9px;
+  padding-left: 7px;
   display: block;
   background-color: $color1;
   height: 40px;
   width: 40px;
-  border-radius: 100%;
+  @include border-radius(100%);
   font-size: 20px;
-  line-height: 40px;
+  line-height: 38px;
   color: $color2;
   outline: none;
 }
@@ -654,6 +656,10 @@ ul.social-buttons li a:active {
 	ul.social-buttons {
 		margin-top: 10px;
 		float: none;
+	}
+
+	ul.social-buttons li a {
+		padding-left: 1px;
 	}
 
 }
