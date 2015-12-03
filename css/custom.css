@@ -12,9 +12,6 @@ body {
   padding-top: 60px;
   padding-bottom: 60px; }
 
-.jumbotron h1 {
-  line-height: 60px; }
-
 .jumbotron .btn {
   color: #FFFFFF;
   background-color: #FF3E3E;
@@ -587,14 +584,19 @@ ul.social-buttons li a:active {
     position: relative;
     left: -50px; }
 
+  .jumbotron {
+    background: #FF3E3E url("../img/matti-crop3.png") no-repeat right center;
+    padding-left: 3%;
+    padding-right: 30%;
+    padding-top: 80px; }
+
   .jumbotron h1 {
-    margin-top: 50px; }
+    font-size: 50px; }
 
   .jumbotron p {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10%;
-    padding-right: 10%; }
+    font-size: 21px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
 
   .jumbotron .btn {
     margin-bottom: 30px; }
@@ -611,6 +613,17 @@ ul.social-buttons li a:active {
     animation-duration: 2s !important;
     -webkit-animation-duration: 2s !important; } }
 @media (min-width: 1200px) {
+  .jumbotron {
+    background: #FF3E3E url("../img/matti.png") no-repeat right center;
+    padding-left: 3%;
+    padding-right: 40%; }
+
+  .jumbotron h1 {
+    font-size: 50px; }
+
+  .jumbotron p {
+    font-size: 21px; }
+
   .navbar .navbar-nav li a {
     margin: 40px 10px 0px 10px;
     padding: 13px 20px 13px 20px; }
@@ -621,6 +634,17 @@ ul.social-buttons li a:active {
   .navbar .navbar-right {
     margin-right: 14.5%; } }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .jumbotron {
+    background: #FF3E3E url("../img/matti-crop2.png") no-repeat right center;
+    padding-left: 3%;
+    padding-right: 35%; }
+
+  .jumbotron h1 {
+    font-size: 50px; }
+
+  .jumbotron p {
+    font-size: 21px; }
+
   .navbar .navbar-nav li a {
     margin: 40px 10px 0px 10px;
     padding: 13px 20px 13px 20px; }
@@ -739,5 +763,10 @@ ul.social-buttons li a:active {
 
   ul.social-buttons li a {
     padding-left: 1px; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  .jumbotron {
+    background: #FF3E3E url("../img/matti-crop4.png") no-repeat right center;
+    padding-left: 2%;
+    padding-right: 25%; } }
 
 /*# sourceMappingURL=custom.css.map */
