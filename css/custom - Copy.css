@@ -14,7 +14,7 @@ body {
 
 .jumbotron .btn {
   color: #FFFFFF;
-  background-color: #ff3e3e;
+  background-color: #454343;
   border: 3px solid #FFFFFF;
   text-transform: uppercase;
   border-radius: 10px;
@@ -118,7 +118,7 @@ section.grey:after {
   font-size: 50px;
   margin-bottom: 5px;
   color: #FFFFFF;
-  background-color: #ff3e3e;
+  background-color: #ab2222;
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -140,7 +140,7 @@ section.grey:after {
   box-shadow: none; }
 
 .progress-bar {
-  background-color: #ff3e3e;
+  background-color: #ab2222;
   box-shadow: none; }
 
 .progress > .progress-type {
@@ -260,7 +260,7 @@ section#contact .text-danger {
 
 section#contact .btn-xl {
   color: #FFFFFF;
-  background-color: #ff3e3e;
+  background-color: #454343;
   border: 3px solid #FFFFFF;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -294,7 +294,7 @@ ul.social-buttons {
 ul.social-buttons li a {
   padding-left: 7px;
   display: block;
-  background-color: #ff3e3e;
+  background-color: #454343;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -309,7 +309,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #454343; }
+  background-color: #ab2222; }
 
 .timeline {
   list-style: none;
@@ -414,7 +414,7 @@ ul.social-buttons li a:active {
   right: auto; }
 
 .timeline-badge.primary {
-  background-color: #ff3e3e !important; }
+  background-color: #ab2222 !important; }
 
 .timeline-badge.success {
   background-color: #3f903f !important; }
@@ -513,7 +513,7 @@ ul.social-buttons li a:active {
     margin-right: -1%; }
 
   .navbar .navbar-nav li a {
-    background-color: #ff3e3e;
+    background-color: #ab2222;
     margin: 40px 10px 0px 10px;
     padding: 13px 10px 13px 10px;
     color: #FFFFFF;
@@ -525,7 +525,7 @@ ul.social-buttons li a:active {
     -ms-border-radius: 10px; }
 
   .navbar .navbar-nav li a:hover {
-    background-color: #ff3e3e;
+    background-color: #ab2222;
     color: #FFFFFF;
     animation: swing 1s;
     -webkit-animation: swing 1s;
@@ -536,23 +536,12 @@ ul.social-buttons li a:active {
     color: #FFFFFF; }
 
   .navbar .navbar-brand-centered {
-    background-color: #ff3e3e;
-    width: 158px;
-    height: 158px;
     position: absolute;
     top: 0px;
     left: 50%;
     display: block;
     text-align: center;
-    padding: 30px 0 0 0;
-    border: 10px solid #FFFFFF;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%; }
-
-  .navbar .navbar-brand-centered:hover {
-    background-color: #ff3e3e; }
+    padding: 0; }
 
   .navbar-brand-centered img:hover {
     animation: swing 1s;
@@ -581,34 +570,11 @@ ul.social-buttons li a:active {
     background-color: #FFFFFF !important;
     color: #454343 !important; }
 
-  .affix .navbar-brand-centered {
-    margin-left: -27px !important;
-    background-color: #ff3e3e;
+  .affix .navbar-brand img {
     width: 55px;
-    height: 55px;
-    position: absolute;
-    top: 7px;
-    left: 50%;
-    display: block;
-    text-align: center;
-    padding: 10px 0 0 0;
-    border: 4px solid #FFFFFF;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%; }
-
-  .affix .navbar-brand-centered img {
-    width: 35px; }
-
-  .affix .navbar-brand-centered:hover {
-    background-color: #ff3e3e; }
-
-  .affix .navbar-brand-centered img:hover {
-    animation: swing 1s;
-    -webkit-animation: swing 1s;
-    -moz-animation: swing 1s;
-    -o-animation: swing 1s; }
+    position: relative;
+    left: 52px;
+    top: 7px; }
 
   .affix .navbar-nav {
     position: relative;
@@ -715,32 +681,16 @@ ul.social-buttons li a:active {
     -ms-animation: none !important;
     animation: none !important; }
 
-  .navbar .navbar-brand-centered {
-    margin: 0;
-    background-color: #ff3e3e;
-    position: absolute;
-    margin: 5px 0 0 5px;
+  .navbar .navbar-brand img {
     width: 60px;
-    height: 60px;
-    display: block;
-    text-align: center;
-    padding: 11px 0 0 0;
-    border: 4px solid #FFFFFF;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%; }
-
-  .navbar .navbar-brand-centered:hover, .navbar .navbar-brand-centered:active {
-    background-color: #ff3e3e; }
-
-  .navbar .navbar-brand-centered img {
-    width: 37px; }
+    position: relative;
+    left: -10px;
+    top: -10px; }
 
   .navbar-header button {
     position: relative;
     top: 11px;
-    background-color: #ff3e3e;
+    background-color: #454343;
     border: none; }
 
   .navbar-header .icon-bar {
@@ -768,7 +718,7 @@ ul.social-buttons li a:active {
     text-transform: uppercase; }
 
   .navbar .navbar-collapse ul li a:hover {
-    background-color: #ff3e3e;
+    background-color: #7d7d7d;
     color: #FFFFFF; }
 
   .affix {
@@ -784,7 +734,7 @@ ul.social-buttons li a:active {
     color: #FFFFFF !important; }
 
   .affix li a:hover, .affix li.active a:hover {
-    background-color: #ff3e3e !important;
+    background-color: #7d7d7d !important;
     color: #FFFFFF !important;
     border-radius: 5px;
     -webkit-border-radius: 5px;
