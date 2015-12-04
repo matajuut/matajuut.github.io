@@ -6,6 +6,9 @@ body {
   background-color: #FFFFFF; }
 
 .jumbotron {
+  min-height: 480px;
+  position: relative;
+  overflow: hidden;
   text-align: center;
   background-color: #454343;
   color: #FFFFFF;
@@ -26,17 +29,31 @@ body {
   color: #454343;
   background-color: #FFFFFF; }
 
-.jumbotron:after {
-  content: ' ';
-  height: 0;
-  width: 0;
-  left: 50%;
+.jumbotron:before, .jumbotron:after {
+  content: '';
   position: absolute;
-  margin-top: 80px;
-  margin-left: -40px;
-  border-left: 40px solid #FFFFFF;
-  border-right: 40px solid #FFFFFF;
-  border-top: 40px solid #454343; }
+  bottom: 0;
+  width: 50%;
+  background-color: #FFFFFF;
+  padding-bottom: 40px; }
+
+.jumbotron:before {
+  right: 50%;
+  -ms-transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -ms-transform: skewX(45deg);
+  -webkit-transform: skewX(45deg);
+  transform: skewX(45deg); }
+
+.jumbotron:after {
+  left: 50%;
+  -ms-transform-origin: 0 100%;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -ms-transform: skewX(-45deg);
+  -webkit-transform: skewX(-45deg);
+  transform: skewX(-45deg); }
 
 section {
   padding: 90px 0px 90px 0px;
@@ -536,6 +553,7 @@ ul.social-buttons li a:active {
     color: #FFFFFF; }
 
   .navbar .navbar-brand-centered {
+    z-index: 100;
     background-color: #ff3e3e;
     width: 158px;
     height: 158px;
@@ -743,6 +761,9 @@ ul.social-buttons li a:active {
     background-color: #ff3e3e;
     border: none; }
 
+  .navbar-header button:hover {
+    background-color: #ff3e3e !important; }
+
   .navbar-header .icon-bar {
     background-color: white !important; }
 
@@ -822,9 +843,14 @@ ul.social-buttons li a:active {
 @media (min-width: 481px) and (max-width: 767px) {
   .jumbotron {
     background-image: url(../img/matti-crop4.png), url(../img/dot-bg.png);
-    background-position: right center, left top;
+    background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
     padding-left: 2%;
     padding-right: 25%; } }
+@media (max-width: 480px) {
+  .jumbotron {
+    background-image: url(../img/dot-bg.png);
+    background-position: left top;
+    background-repeat: repeat; } }
 
 /*# sourceMappingURL=custom.css.map */
