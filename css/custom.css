@@ -3,7 +3,8 @@ body {
 
 .navbar {
   border: 0;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  z-index: 100; }
 
 .jumbotron {
   min-height: 480px;
@@ -517,7 +518,8 @@ ul.social-buttons li a:active {
 
 @media (min-width: 768px) {
   .navbar {
-    margin: 30px 0px 11px 0px;
+    margin: 0px;
+    padding: 30px 0px 11px 0px;
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -558,7 +560,7 @@ ul.social-buttons li a:active {
     width: 158px;
     height: 158px;
     position: absolute;
-    top: 0px;
+    top: 17px;
     left: 50%;
     display: block;
     text-align: center;
@@ -732,6 +734,10 @@ ul.social-buttons li a:active {
     -o-animation: none !important;
     -ms-animation: none !important;
     animation: none !important; }
+
+  .navbar {
+    margin: 0px;
+    height: 70px; }
 
   .navbar .navbar-brand-centered {
     margin: 0;
