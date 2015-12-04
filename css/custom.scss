@@ -1,12 +1,12 @@
 $font1: 'Montserrat', sans-serif;
 $font2: 'Droid Serif', sans-serif;
 $font3: 'Roboto Slab', sans-serif;
-$color1: #454343;
+$color1: #454343; //Jumbotron etc
 $color2: #FFFFFF;
 $color3: #f3f3f3;
 $color4: #7d7d7d;
 $color5: #000000;
-$color6: #ff3e3e;
+$color6: #ff3e3e; //Navbar etc
 
 @mixin border-radius($radius) {
 	border-radius: $radius;
@@ -35,8 +35,8 @@ body {
 	text-align: center;
 	background-color: $color1;
 	color: $color2;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .jumbotron .btn {
@@ -58,7 +58,7 @@ body {
 	width: 0;
 	left: 50%;
 	position: absolute;
-	margin-top: 60px;
+	margin-top: 80px;
 	margin-left: -40px;
 	border-left: 40px solid $color2;
 	border-right: 40px solid $color2;

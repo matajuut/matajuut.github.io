@@ -9,8 +9,8 @@ body {
   text-align: center;
   background-color: #454343;
   color: #FFFFFF;
-  padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
 
 .jumbotron .btn {
   color: #FFFFFF;
@@ -32,7 +32,7 @@ body {
   width: 0;
   left: 50%;
   position: absolute;
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: -40px;
   border-left: 40px solid #FFFFFF;
   border-right: 40px solid #FFFFFF;
