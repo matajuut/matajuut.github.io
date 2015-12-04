@@ -1,12 +1,12 @@
 $font1: 'Montserrat', sans-serif;
 $font2: 'Droid Serif', sans-serif;
 $font3: 'Roboto Slab', sans-serif;
-$color1: #FF3E3E;
+$color1: #454343;
 $color2: #FFFFFF;
 $color3: #f3f3f3;
 $color4: #7d7d7d;
 $color5: #000000;
-$color6: #1D1D1D;
+$color6: #ff3d3d;
 
 @mixin border-radius($radius) {
 	border-radius: $radius;
@@ -156,7 +156,7 @@ section.grey:after {
 	font-size: 50px;
 	margin-bottom: 5px;
 	color: $color2;
-	background-color: $color1;
+	background-color: $color6;
 	@include border-radius(100%);
 }
 
@@ -175,7 +175,7 @@ section.grey:after {
 }
 
 .progress-bar {
-	background-color: $color1;
+	background-color: $color6;
 	box-shadow: none;
 }
 
@@ -354,7 +354,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: $color4;
+  background-color: $color6;
 }
 
 
@@ -391,7 +391,7 @@ ul.social-buttons li a:active {
 	}
 
 	.navbar .navbar-nav li a {
-		background-color: $color1;
+		background-color: $color6;
 		margin: 40px 10px 0px 10px;
 		padding: 13px 10px 13px 10px;
 		color: $color2;
@@ -401,7 +401,7 @@ ul.social-buttons li a:active {
 	}
 
 	.navbar .navbar-nav li a:hover {
-		background-color: $color1;
+		background-color: $color6;
 		color: $color2;
 		animation: swing 1s;
 		-webkit-animation: swing 1s;
@@ -472,7 +472,9 @@ ul.social-buttons li a:active {
 	}
 
 	.jumbotron {
-		background: $color1 url('../img/matti-crop3.png') no-repeat right center;
+		background-image: url(../img/matti-crop3.png), url(../img/dot-bg.png);
+    	background-position: right center, left top;
+    	background-repeat: no-repeat, repeat;
 		padding-left: 3%;
 		padding-right: 30%;
 		padding-top: 80px;
@@ -509,7 +511,9 @@ ul.social-buttons li a:active {
 @media (min-width: 1200px) {
 
 	.jumbotron {
-		background: $color1 url('../img/matti.png') no-repeat right center;
+		background-image: url(../img/matti.png), url(../img/dot-bg.png);
+    	background-position: right center, left top;
+    	background-repeat: no-repeat, repeat;
 		padding-left: 3%;
 		padding-right: 40%;
 	}
@@ -540,7 +544,9 @@ ul.social-buttons li a:active {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	.jumbotron {
-		background: $color1 url('../img/matti-crop2.png') no-repeat right center;
+		background-image: url(../img/matti-crop2.png), url(../img/dot-bg.png);
+    	background-position: right center, left top;
+    	background-repeat: no-repeat, repeat;
 		padding-left: 3%;
 		padding-right: 35%;
 	}
@@ -697,7 +703,9 @@ ul.social-buttons li a:active {
 @media (min-width: 481px) and (max-width: 767px) {
 
 	.jumbotron {
-		background: $color1 url('../img/matti-crop4.png') no-repeat right center;
+		background-image: url(../img/matti-crop4.png), url(../img/dot-bg.png);
+    	background-position: right center, left top;
+    	background-repeat: no-repeat, repeat;
 		padding-left: 2%;
 		padding-right: 25%;
 	}

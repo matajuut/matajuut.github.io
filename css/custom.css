@@ -7,14 +7,14 @@ body {
 
 .jumbotron {
   text-align: center;
-  background-color: #FF3E3E;
+  background-color: #454343;
   color: #FFFFFF;
   padding-top: 60px;
   padding-bottom: 60px; }
 
 .jumbotron .btn {
   color: #FFFFFF;
-  background-color: #FF3E3E;
+  background-color: #454343;
   border: 3px solid #FFFFFF;
   text-transform: uppercase;
   border-radius: 10px;
@@ -23,7 +23,7 @@ body {
   -ms-border-radius: 10px; }
 
 .jumbotron .btn:hover {
-  color: #FF3E3E;
+  color: #454343;
   background-color: #FFFFFF; }
 
 .jumbotron:after {
@@ -36,7 +36,7 @@ body {
   margin-left: -40px;
   border-left: 40px solid #FFFFFF;
   border-right: 40px solid #FFFFFF;
-  border-top: 40px solid #FF3E3E; }
+  border-top: 40px solid #454343; }
 
 section {
   padding: 90px 0px 90px 0px;
@@ -71,17 +71,17 @@ section h2 {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #FF3E3E; }
+  color: #454343; }
 
 section h3 {
   font-size: 20px;
   font-weight: 700;
-  color: #FF3E3E; }
+  color: #454343; }
 
 section h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #FF3E3E !important; }
+  color: #454343 !important; }
 
 section p {
   font-family: "Droid Serif", sans-serif;
@@ -118,7 +118,7 @@ section.grey:after {
   font-size: 50px;
   margin-bottom: 5px;
   color: #FFFFFF;
-  background-color: #FF3E3E;
+  background-color: #ff3d3d;
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -140,7 +140,7 @@ section.grey:after {
   box-shadow: none; }
 
 .progress-bar {
-  background-color: #FF3E3E;
+  background-color: #ff3d3d;
   box-shadow: none; }
 
 .progress > .progress-type {
@@ -195,7 +195,7 @@ section.grey:after {
   font-style: italic; }
 
 section#contact {
-  background-color: #FF3E3E;
+  background-color: #454343;
   background-image: url("../img/map-image.png");
   background-position: center;
   background-repeat: no-repeat; }
@@ -260,7 +260,7 @@ section#contact .text-danger {
 
 section#contact .btn-xl {
   color: #FFFFFF;
-  background-color: #FF3E3E;
+  background-color: #454343;
   border: 3px solid #FFFFFF;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -274,7 +274,7 @@ section#contact .btn-xl {
   margin-top: 20px; }
 
 section#contact .btn-xl:hover {
-  color: #FF3E3E;
+  color: #454343;
   background-color: #FFFFFF; }
 
 footer {
@@ -294,7 +294,7 @@ ul.social-buttons {
 ul.social-buttons li a {
   padding-left: 7px;
   display: block;
-  background-color: #FF3E3E;
+  background-color: #454343;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -309,7 +309,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #7d7d7d; }
+  background-color: #ff3d3d; }
 
 .timeline {
   list-style: none;
@@ -414,7 +414,7 @@ ul.social-buttons li a:active {
   right: auto; }
 
 .timeline-badge.primary {
-  background-color: #FF3E3E !important; }
+  background-color: #ff3d3d !important; }
 
 .timeline-badge.success {
   background-color: #3f903f !important; }
@@ -513,7 +513,7 @@ ul.social-buttons li a:active {
     margin-right: -1%; }
 
   .navbar .navbar-nav li a {
-    background-color: #FF3E3E;
+    background-color: #ff3d3d;
     margin: 40px 10px 0px 10px;
     padding: 13px 10px 13px 10px;
     color: #FFFFFF;
@@ -525,7 +525,7 @@ ul.social-buttons li a:active {
     -ms-border-radius: 10px; }
 
   .navbar .navbar-nav li a:hover {
-    background-color: #FF3E3E;
+    background-color: #ff3d3d;
     color: #FFFFFF;
     animation: swing 1s;
     -webkit-animation: swing 1s;
@@ -557,7 +557,7 @@ ul.social-buttons li a:active {
     z-index: 10;
     width: 100%;
     height: 70px;
-    background-color: #FF3E3E;
+    background-color: #454343;
     margin: 0;
     padding: 0; }
 
@@ -568,7 +568,7 @@ ul.social-buttons li a:active {
 
   .affix li.active a {
     background-color: #FFFFFF !important;
-    color: #FF3E3E !important; }
+    color: #454343 !important; }
 
   .affix .navbar-brand img {
     width: 55px;
@@ -585,7 +585,9 @@ ul.social-buttons li a:active {
     left: -50px; }
 
   .jumbotron {
-    background: #FF3E3E url("../img/matti-crop3.png") no-repeat right center;
+    background-image: url(../img/matti-crop3.png), url(../img/dot-bg.png);
+    background-position: right center, left top;
+    background-repeat: no-repeat, repeat;
     padding-left: 3%;
     padding-right: 30%;
     padding-top: 80px; }
@@ -614,7 +616,9 @@ ul.social-buttons li a:active {
     -webkit-animation-duration: 2s !important; } }
 @media (min-width: 1200px) {
   .jumbotron {
-    background: #FF3E3E url("../img/matti.png") no-repeat right center;
+    background-image: url(../img/matti.png), url(../img/dot-bg.png);
+    background-position: right center, left top;
+    background-repeat: no-repeat, repeat;
     padding-left: 3%;
     padding-right: 40%; }
 
@@ -635,7 +639,9 @@ ul.social-buttons li a:active {
     margin-right: 14.5%; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .jumbotron {
-    background: #FF3E3E url("../img/matti-crop2.png") no-repeat right center;
+    background-image: url(../img/matti-crop2.png), url(../img/dot-bg.png);
+    background-position: right center, left top;
+    background-repeat: no-repeat, repeat;
     padding-left: 3%;
     padding-right: 35%; }
 
@@ -684,7 +690,7 @@ ul.social-buttons li a:active {
   .navbar-header button {
     position: relative;
     top: 11px;
-    background-color: #FF3E3E;
+    background-color: #454343;
     border: none; }
 
   .navbar-header .icon-bar {
@@ -702,7 +708,7 @@ ul.social-buttons li a:active {
     padding: 0px; }
 
   .navbar .navbar-collapse ul li a {
-    background-color: #FF3E3E;
+    background-color: #454343;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -719,12 +725,12 @@ ul.social-buttons li a:active {
     z-index: 10;
     width: 100%;
     height: 70px;
-    background-color: #FF3E3E;
+    background-color: #454343;
     margin: 0;
     padding: 0; }
 
   .affix li.active a {
-    background-color: #FF3E3E !important;
+    background-color: #454343 !important;
     color: #FFFFFF !important; }
 
   .affix li a:hover, .affix li.active a:hover {
@@ -765,7 +771,9 @@ ul.social-buttons li a:active {
     padding-left: 1px; } }
 @media (min-width: 481px) and (max-width: 767px) {
   .jumbotron {
-    background: #FF3E3E url("../img/matti-crop4.png") no-repeat right center;
+    background-image: url(../img/matti-crop4.png), url(../img/dot-bg.png);
+    background-position: right center, left top;
+    background-repeat: no-repeat, repeat;
     padding-left: 2%;
     padding-right: 25%; } }
 
