@@ -273,8 +273,10 @@ section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #bbbbbb; }
 
-section#contact .text-danger {
-  color: #FFFFFF; }
+section#contact .help-block {
+  color: #ff3e3e;
+  text-align: left;
+  margin-left: 20px; }
 
 section#contact .btn-xl {
   color: #FFFFFF;
