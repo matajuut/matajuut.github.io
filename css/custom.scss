@@ -56,10 +56,6 @@ body {
 	background-color: $color2;
 }
 
-
-
-
-
 .jumbotron:before, .jumbotron:after {
   content:'';
   position: absolute;
@@ -86,11 +82,6 @@ body {
   -webkit-transform: skewX(-45deg);
   transform: skewX(-45deg);
 }
-
-
-
-
-
 
 section {
 	padding: 90px 0px 90px 0px;
@@ -188,7 +179,13 @@ section.grey:after {
 }
 
 .my-skills {
-	margin-top: 50px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#expertise h3 {
+	margin: 40px 0px;
+	text-transform: uppercase;
 }
 
 .progress {
@@ -265,10 +262,9 @@ section.grey:after {
 	font-style: italic;
 }
 
-
-
-
-
+.modal img {
+	margin: 0 auto;
+}
 
 section#contact {
   background-color: $color1;
@@ -352,8 +348,6 @@ section#contact .btn-xl:hover {
 	background-color: $color2;
 }
 
-
-
 footer {
   padding: 25px 0;
   text-align: left;
@@ -386,9 +380,6 @@ ul.social-buttons li a:active {
   background-color: $color1;
 }
 
-
-
-
 @import 'timeline';
 
 .delay1 {
@@ -403,7 +394,6 @@ ul.social-buttons li a:active {
 	@include animation-delay(2s);
 }
 
-
 @media (min-width: 768px) {
 
 	.navbar {
@@ -417,7 +407,7 @@ ul.social-buttons li a:active {
 	}
 
 	.navbar .navbar-right {
-		margin-right: -1%;
+		margin-right: -3.8%;
 	}
 
 	.navbar .navbar-nav li a {
@@ -494,8 +484,6 @@ ul.social-buttons li a:active {
 		color: $color1 !important;
 	}
 
-
-
     .affix .navbar-brand-centered {
     	margin-left: -27px !important;
     	background-color: $color6;
@@ -525,8 +513,6 @@ ul.social-buttons li a:active {
     	-moz-animation: swing 1s;
     	-o-animation: swing 1s;
      }
-
-
 
 	.affix .navbar-nav {
 		position: relative;
@@ -603,7 +589,7 @@ ul.social-buttons li a:active {
 	}
 
 	.navbar .navbar-right {
-		margin-right: 14.5%;
+		margin-right: 12.6%;
 	}
 
 }
@@ -636,7 +622,7 @@ ul.social-buttons li a:active {
 	}
 
 	.navbar .navbar-right {
-		margin-right: 6.9%;
+		margin-right: 4.8%;
 	}
 
 }
