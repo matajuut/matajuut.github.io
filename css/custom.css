@@ -871,6 +871,9 @@ ul.social-buttons li a:active {
   .jumbotron {
     background-image: url(../img/dot-bg.png);
     background-position: left top;
-    background-repeat: repeat; } }
+    background-repeat: repeat; }
+
+  .my-skills {
+    width: 100%; } }
 
 /*# sourceMappingURL=custom.css.map */
